@@ -1,0 +1,17 @@
+{
+  "name": "newcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1":"cypress open --e2e -b chrome",
+    "preprod":"cypress open --env name=ankit --config baseUrl=\"https://www.facebook.com\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  }
+}
